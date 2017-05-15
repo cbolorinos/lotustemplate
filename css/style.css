@@ -10302,7 +10302,8 @@ h2,
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-family: "Source Sans Pro", sans-serif;
-  text-transform: uppercase;
+  font-weight: 200;
+  color: #839eb8;
 }
 
 @media (min-width: 768px) {
@@ -11161,6 +11162,15 @@ mark, .mark {
 .page .text-gray-darker {
   color: #434445;
 }
+.headertext{
+  color:#839eb8;
+  font-size: 19px;
+  font-weight: 200;
+}
+.headernumber{
+  font-size: 37px;
+  font-weight: 700;
+}
 
 .page a.text-gray-darker:hover,
 .page a.text-gray-darker:focus {
@@ -11564,15 +11574,15 @@ fieldset[disabled] .btn-default {
 
 .btn-primary {
   color: #fff;
-  background-color: #ec606a;
-  border-color: #ec606a;
+  background-color: #e8830d;
+  border-color: #e8830d;
 }
 
 .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #e41c2a;
-  border-color: #e41c2a;
+  background-color: #eb8f24;
+  border-color: #eb8f24;
 }
 
 .btn-primary:active, .btn-primary.active,
@@ -12002,7 +12012,7 @@ fieldset[disabled] .btn-darkest {
 }
 
 .btn-ellipse.btn {
-  border-radius: 23px;
+  border-radius: 159px;
 }
 
 .btn-ellipse.btn-xs, .btn-group-xs > .btn-ellipse.btn {
@@ -25564,14 +25574,21 @@ a.icon {
 }
 
 .icon-xxs.icon-rect, .icon-xxs.icon-rounded, .icon-xxs.icon-circle, .icon-xxs.icon-outlined {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 18px;
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  font-size: 12px;
+  color:#fff;
+  background-color: #000;
 }
 
-.icon-xxs.fa-envelope {
-  font-size: 23px;
+.icon-xxs.icon-rect:hover, .icon-xxs.icon-rounded:hover, .icon-xxs.icon-circle:hover, .icon-xxs.icon-outlined:hover {
+  width: 32px;
+  height: 32px;
+  line-height: 30px;
+  font-size: 12px;
+  color:#fff;
+  background-color: #999;
 }
 
 .icon-xxs.fa-phone {
@@ -25814,41 +25831,6 @@ a.icon {
 .icon-outlined.mdi-rocket,
 .icon-outlined.mdi-xml {
   font-size: 42px;
-}
-
-a.icon-rect.fa-facebook:hover, a.icon-circle.fa-facebook:hover, a.icon-outlined.fa-facebook:hover, a.icon-rounded.fa-facebook:hover {
-  color: #fff;
-  background: #0956b5;
-}
-
-a.icon-rect.fa-twitter:hover, a.icon-circle.fa-twitter:hover, a.icon-outlined.fa-twitter:hover, a.icon-rounded.fa-twitter:hover {
-  color: #fff;
-  background: #28d4f9;
-}
-
-a.icon-rect.fa-google-plus:hover, a.icon-circle.fa-google-plus:hover, a.icon-outlined.fa-google-plus:hover, a.icon-rounded.fa-google-plus:hover {
-  color: #fff;
-  background: #e3401d;
-}
-
-a.icon-rect.fa-linkedin:hover, a.icon-circle.fa-linkedin:hover, a.icon-outlined.fa-linkedin:hover, a.icon-rounded.fa-linkedin:hover {
-  color: #fff;
-  background: #0E7EB5;
-}
-
-a.icon-rect.fa-500px:hover, a.icon-circle.fa-500px:hover, a.icon-outlined.fa-500px:hover, a.icon-rounded.fa-500px:hover {
-  color: #fff;
-  background: #bebebe;
-}
-
-a.icon-rect.fa-rss:hover, a.icon-circle.fa-rss:hover, a.icon-outlined.fa-rss:hover, a.icon-rounded.fa-rss:hover {
-  color: #fff;
-  background: #f6981d;
-}
-
-a.icon-rect.fa-behance:hover, a.icon-circle.fa-behance:hover, a.icon-outlined.fa-behance:hover, a.icon-rounded.fa-behance:hover {
-  background: #64aae1;
-  color: #fff;
 }
 
 .fontawesome-icon-list {
@@ -28274,6 +28256,10 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 }
 
 /** 2.40 Form Addons */
+.orangebg{
+  background-color: #e8830d;
+}
+
 .rd-mailform {
   position: relative;
 }
@@ -36812,7 +36798,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-fixed .rd-navbar-brand {
-  max-width: 107px;
+  max-width: 70px;
 }
 
 .rd-navbar-minimal.rd-navbar-fixed .contact-info + .contact-info {
@@ -36948,7 +36934,13 @@ fieldset[disabled] .bg-primary .btn-java {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 50px;
 }
+.rd-navbar--is-stuck.rdnavbar-static .rdnavbar-panel,
+.rd-navbar-minimal.rd-navbar-static .rd-navbar-menu-wrap,
+.rd-navbar-minimal.rd-navbar-static .rd-navbar-panel {
+  margin-bottom: 0px;
+  }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-menu-wrap {
   height: 60px;
