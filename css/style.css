@@ -10268,7 +10268,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .font-accent {
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1,
@@ -10276,7 +10276,7 @@ h1,
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
 }
 
@@ -10301,7 +10301,7 @@ h2,
   font-size: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
 }
 
@@ -10326,7 +10326,7 @@ h3,
   font-size: 28px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
 }
 
@@ -10385,7 +10385,7 @@ h6,
   font-size: 17px;
   line-height: 1.5;
   letter-spacing: 0.06em;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
 }
 
@@ -11476,7 +11476,7 @@ footer .btn-java:hover {
   letter-spacing: 0.04em;
   border-width: 2px;
   border-radius: 5px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   transition: .3s;
   backface-visibility: hidden;
@@ -24488,7 +24488,7 @@ a.thumbnail:hover {
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 400;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   letter-spacing: 0.06em;
 }
 
@@ -26029,7 +26029,7 @@ a.icon-rect.fa-behance:hover, a.icon-circle.fa-behance:hover, a.icon-outlined.fa
   left: 50%;
   font-size: 18px;
   line-height: 24px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: #434445;
   transform: translate(-50%, -50%);
 }
@@ -28247,7 +28247,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 
 .single-deal-post-price {
   float: left;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 24px;
 }
 
@@ -33301,7 +33301,7 @@ fieldset[disabled] .member-block-type-3 .btn-group .btn {
 }
 
 .bg-deluge, .bg-butterfly-bush, .navbar-inverse, .context-dark, .bg-deluge .btn-link, .bg-butterfly-bush .btn-link, .navbar-inverse .btn-link, .context-dark .btn-link, .bg-deluge .form-label, .bg-butterfly-bush .form-label, .navbar-inverse .form-label, .context-dark .form-label, .bg-deluge .form-label-outside.focus, .bg-butterfly-bush .form-label-outside.focus, .navbar-inverse .form-label-outside.focus, .context-dark .form-label-outside.focus, .bg-deluge .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .bg-butterfly-bush .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .navbar-inverse .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .context-dark .select2-container--bootstrap .select2-selection--single .select2-selection__rendered, .bg-deluge .select2-container--bootstrap .select2-selection, .bg-butterfly-bush .select2-container--bootstrap .select2-selection, .navbar-inverse .select2-container--bootstrap .select2-selection, .context-dark .select2-container--bootstrap .select2-selection, .bg-deluge h1, .bg-butterfly-bush h1, .navbar-inverse h1, .context-dark h1, .bg-deluge .h1, .bg-butterfly-bush .h1, .navbar-inverse .h1, .context-dark .h1, .bg-deluge h2, .bg-butterfly-bush h2, .navbar-inverse h2, .context-dark h2, .bg-deluge .h2, .bg-butterfly-bush .h2, .navbar-inverse .h2, .context-dark .h2, .bg-deluge h3, .bg-butterfly-bush h3, .navbar-inverse h3, .context-dark h3, .bg-deluge .h3, .bg-butterfly-bush .h3, .navbar-inverse .h3, .context-dark .h3, .bg-deluge h4, .bg-butterfly-bush h4, .navbar-inverse h4, .context-dark h4, .bg-deluge .h4, .bg-butterfly-bush .h4, .navbar-inverse .h4, .context-dark .h4, .bg-deluge h5, .bg-butterfly-bush h5, .navbar-inverse h5, .context-dark h5, .bg-deluge .h5, .bg-butterfly-bush .h5, .navbar-inverse .h5, .context-dark .h5, .bg-deluge h6, .bg-butterfly-bush h6, .navbar-inverse h6, .context-dark h6, .bg-deluge .h6, .bg-butterfly-bush .h6, .navbar-inverse .h6, .context-dark .h6 {
-  color: #fff;
+  color: #000;
 }
 
 .bg-deluge .form-label.auto-fill, .bg-butterfly-bush .form-label.auto-fill, .navbar-inverse .form-label.auto-fill, .context-dark .form-label.auto-fill {
@@ -33714,7 +33714,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar li a {
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .rd-navbar .responsive-tabs-classic {
@@ -34675,7 +34675,7 @@ fieldset[disabled] .bg-primary .btn-java {
   font-family: 'FontAwesome';
   font-size: 8px;
   line-height: 8px;
-  color: #fff;
+  color: #000;
   position: relative;
   top: -1px;
   right: 11px;
@@ -34703,7 +34703,8 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li:hover {
-  background: #e9c7c1;
+  background-color: #e5e5e5;
+  color:#868686;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li > a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li > a {
@@ -36956,18 +36957,15 @@ fieldset[disabled] .bg-primary .btn-java {
   display: flex;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
+  justify-content: right;
+  -webkit-align-items: right;
   -ms-flex-align: center;
   align-items: center;
-  background: #ec606a;
-  box-shadow: 0 3px 14px 0 rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  top: 32px;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-menu-wrap.active .rd-navbar-nav-wrap {
@@ -36980,11 +36978,14 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-menu-wrap .rd-navbar-nav > li > a {
-  color: #fff;
+  color: #000;
 }
+
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand img {
   vertical-align: baseline;
+  position:absolute;
+  top:10px;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand-slogan {
@@ -44234,7 +44235,7 @@ html:not(.lt-ie10) .not-animated {
   white-space: nowrap;
   line-height: 1.5;
   padding: 5px 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
 }
 
@@ -45400,7 +45401,7 @@ a.pswp__share--download:hover {
   .responsive-tabs-classic[data-type="vertical"] .resp-tabs-list li, .responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li {
     font-size: 18px;
     line-height: 1.33333;
-    font-family: "Oswald", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 0.06em;
     color: #868686;
     font-weight: 400;
@@ -47866,7 +47867,7 @@ a.pswp__share--download:hover {
   }
   .rd-calendar-fullwidth .rd-calendar .rdc-table_day {
     color: #868686;
-    font-family: "Oswald", sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 10px;
@@ -48843,7 +48844,7 @@ td.legendColorBox {
 .time_circles > div {
   position: absolute;
   text-align: center;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   top: 50% !important;
   transform: translateY(-63%) !important;
   -webkit-transform: translateY(-63%) !important;
@@ -48917,7 +48918,7 @@ td.legendColorBox {
   font-size: 16px !important;
   text-align: center;
   color: #434445;
-  font-family: "Oswald", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 @media (min-width: 768px) {
