@@ -12,6 +12,7 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/kovanda.css">
     <link rel="stylesheet" href="css/style.css">
 		<!--[if lt IE 10]>
     <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
@@ -124,23 +125,26 @@
         <section class="section-98 section-sm-110 text-left">
           <div class="shell">
             <div class="range range-xs-center">
-              <div class="cell-xs-10 cell-md-8 offset-top-18">
-              <div>
+              <div class="row">
+              <div class="col-md-8 offset-top-18">
+                <div>
                   <h4>Procedures</h4>
                   <hr class="text-subline">
                   <p>Mauris a enim faucibus, mollis odio id, bibendum neque. Duis sollicitudin ligula elit, vel vulputate diam ullamcorper at. Aenean accumsan neque non</p>
                   <div class="range range-xs-center">
-                    <div class="cell-sm-6">
-                      <h5>Tummy Tuck</h5>
-                      <h5>Liposuction</h5>
-                      <h5>Breast Augmentation</h5>
-                      <h5>Breast Reduction</h5>
-                    </div>
-                    <div class="cell-sm-6 offset-top-20 offset-sm-top-0">
-                      <h5>Breast Reconstruction</h5>
-                      <h5>Rhinoplasty</h5>
-                      <h5>Buttock Enhancement</h5>
-                      <h5>Labiaplasty</h5>
+                    <div class="row">
+                      <div class="cell-sm-6">
+                        <h5>Tummy Tuck</h5>
+                        <h5>Liposuction</h5>
+                        <h5>Breast Augmentation</h5>
+                        <h5>Breast Reduction</h5>
+                      </div>
+                      <div class="cell-sm-6 offset-top-20">
+                        <h5>Breast Reconstruction</h5>
+                        <h5>Rhinoplasty</h5>
+                        <h5>Buttock Enhancement</h5>
+                        <h5>Labiaplasty</h5>
+                      </div>
                     </div>
                   </div>
                   <div class="offset-top-20">
@@ -156,34 +160,101 @@
                     <h5><a href="">Learn More »</a></h5>
                   </div>
 
-
-
-
                   <script>
-function myFunction() {
-   document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                  $(document).ready(function() {
+                      $('.carousel').carousel({
+                        interval: 6000
+                      })
+                    });
+                  </script>
+                  <div class="row offset-top-60">
+                    <div class="carousel slide" id="myCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                              <ul class="thumbnails">
+                                <li class="col-sm-6 thumbnailcol">
+                                  <div class="fff">
+                                    <div class="thumbnail">
+                                      <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                      <h4>Before</h4>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="col-sm-6 thumbnailcol">
+                                  <div class="fff">
+                                    <div class="thumbnail">
+                                      <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                      <h4>After</h4>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div><!-- /Slide1 --> 
+                            <div class="item">
+                              <ul class="thumbnails">
+                                <li class="col-sm-6 thumbnailcol">
+                                  <div class="fff">
+                                    <div class="thumbnail">
+                                      <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                      <h4>Before</h4>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="col-sm-6 thumbnailcol">
+                                  <div class="fff">
+                                    <div class="thumbnail">
+                                      <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                      <h4>After</h4>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div><!-- /Slide2 --> 
+                            <div class="item">
+                              <ul class="thumbnails">
+                                <li class="col-sm-6 thumbnailcol">
+                                  <div class="fff">
+                                    <div class="thumbnail">
+                                      <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                      <h4>Before</h4>
+                                    </div>
+                                  </div>
+                                </li>
+                                <li class="col-sm-6 thumbnailcol">
+                                  <div class="fff">
+                                    <div class="thumbnail">
+                                      <a href="#"><img src="http://placehold.it/360x240" alt=""></a>
+                                    </div>
+                                    <div class="caption">
+                                      <h4>After</h4>
+                                    </div>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div><!-- /Slide3 --> 
+                        </div>
+                        <nav>
+                          <ul class="control-box pager">
+                            <li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+                            <li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></li>
+                          </ul>
+                        </nav>
+                     <!-- /.control-box -->                          
+                      </div><!-- /#myCarousel -->
+                    </div>
                 </div>
               </div>
-              <div class="orangebg cell-xs-10 cell-md-4">
+              <div class="orangebg col-md-4">
                 <h6>Book a Consultation</h6>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas semper sit</p>
                 <form data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php" novalidate class="rd-mailform text-left offset-top-41">
@@ -215,6 +286,7 @@ function myFunction() {
                     <button type="submit" class="btn btn-ellipse orangebg-button">send message</button>
                   </div>
                 </form>
+              </div>
               </div>
             </div>
           </div>
