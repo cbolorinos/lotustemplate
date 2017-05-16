@@ -8024,6 +8024,12 @@ iframe {
   min-width: 300px;
   max-width: 480px;
 }
+.advert{
+  background-size: cover;
+  background-repeat:no-repeat;
+  margin:0 15px;
+  padding:30px;
+}
 
 @media (min-width: 768px) {
   .shell,
