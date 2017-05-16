@@ -478,12 +478,15 @@ ul.thumbnails {
     width: 15px;
 }
 .carousel-inner{
-  margin-left: -40px;
+  margin-left: -23px;
 }
 /* Mobile Only */
 @media (max-width: 767px) {
     .page-header, .control-box {
         text-align: center;
+    }
+    .carousel-inner{
+      margin-left: -20px;
     }
 }
 @media (max-width: 479px) {
@@ -5759,9 +5762,9 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > span {
   display: inline-block;
   padding: 5px 14px;
-  background-color: transparent;
-  border: 1px solid #bdbdbd;
-  border-radius: 3px;
+  background-color: #dbd7cf;
+  border-radius: 30px;
+  color:#fff;
 }
 
 .pager li > a:hover,
@@ -5769,7 +5772,8 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .pager li > a:active,
 .pager li > a:active:focus {
   text-decoration: none;
-  background-color: #212121;
+  background-color: #aeaaa3;
+  color:#fff;
 }
 
 .pager .next > a,
@@ -5980,8 +5984,7 @@ a.badge:hover, a.badge:focus {
   padding: 0;
   margin-bottom: 24px;
   line-height: 1.6;
-  background-color: #191919;
-  border: 1px solid #ddd;
+  background-color: #fff;
   border-radius: 5px;
   -webkit-transition: border 0.2s ease-in-out;
   -o-transition: border 0.2s ease-in-out;
@@ -24182,7 +24185,6 @@ html.lt-ie11 .btn-santos-svg:hover {
 .thumbnail {
   transition: .3s;
   border: none;
-  box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.15);
 }
 
 a.thumbnail:hover {
@@ -27538,8 +27540,8 @@ html .group-bottom > *, html .group-bottom > *:first-child {
 .pager li > a:active,
 .pager li > a:active:focus {
   color: #fff;
-  background-color: #212121;
-  border-color: #212121;
+  background-color: #aeaaa3;
+  border-color: #aeaaa3;
 }
 
 .pager .icon-left,
