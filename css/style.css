@@ -499,8 +499,21 @@ li { list-style-type:none;}
 ::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
 ::-moz-selection { background: #ff5e99; color: #FFFFFF; }
 
-
-
+.footermenu li>a, .footermenu a{
+  font-weight:300;
+  color:#000;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.footermenu li>a:hover{
+  font-weight:300;
+  color:#999;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+footer{
+  background-color:#f5f1e7;
+}
 
 
 /** 1.2  Glyphicons */
