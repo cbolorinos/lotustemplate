@@ -1626,7 +1626,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #eb8f27;
+  color: #f39931;
   text-decoration: underline;
 }
 
@@ -1864,7 +1864,7 @@ blockquote.quote .text-primary,
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #e7323f;
+  color: #e8830d;
 }
 
 blockquote.quote .text-success,
@@ -1917,7 +1917,7 @@ a.text-danger:focus {
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #e7323f;
+  background-color: #e8830d;
 }
 
 .bg-success {
@@ -3473,7 +3473,7 @@ fieldset[disabled] .btn-link {
 }
 
 .btn-link:hover, .btn-link:focus {
-  color: #eb8f27;
+  color: #f39931;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -10130,7 +10130,6 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .text-subline {
-  position: relative;
   height: 1px;
   padding: 0;
   background: #f5f1e7;
@@ -10525,7 +10524,7 @@ h3 a:hover, .h3 a:hover,
 h4 a:hover, .h4 a:hover,
 h5 a:hover, .h5 a:hover,
 h6 a:hover, .h6 a:hover {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 h1 .small, .h1 .small,
@@ -10884,7 +10883,7 @@ mark, .mark {
 
 .list-vertical-right-line li:hover {
   color: #fff;
-  background: #e7323f;
+  background: #e8830d;
 }
 
 @media (min-width: 1200px) {
@@ -11257,7 +11256,7 @@ mark, .mark {
 
 .page a.text-primary:hover,
 .page a.text-primary:focus {
-  color: #e7323f;
+  color: #e8830d;
 }
 
 .page blockquote.quote .text-gray-darker,
@@ -11321,7 +11320,7 @@ mark, .mark {
 
 .page blockquote.quote .text-java,
 .page .text-java {
-  color: #e9c7c1;
+  color: #fff;
 }
 
 .page a.text-java:hover,
@@ -11683,8 +11682,8 @@ fieldset[disabled] .btn-default {
 .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #eb8f24;
-  border-color: #eb8f24;
+  background-color: #f39931;
+  border-color: #f39931;
 }
 
 .btn-primary:active, .btn-primary.active,
@@ -11715,8 +11714,8 @@ fieldset[disabled] .btn-primary {
 
 .btn-java {
   color: #fff;
-  background-color: #e9c7c1;
-  border-color: #e9c7c1;
+  background-color: #839eb8;
+  border-color: #839eb8;
 }
 
 .btn-java:focus, .btn-java.focus, .btn-java:hover, .btn-java:active, .btn-java.active,
@@ -12868,7 +12867,7 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-nuka-effect.btn-primary:hover {
-  color: #e7323f;
+  color: #e8830d;
 }
 
 .btn.btn-nuka-effect.btn-primary:hover:after {
@@ -13873,7 +13872,7 @@ html.lt-ie11 .btn-santos-svg:hover {
   }
   .section-sm-20 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 160px;
   }
   .section-sm-34 {
     padding-top: 34px;
@@ -24580,10 +24579,6 @@ a.thumbnail:hover {
   }
 }
 
-.thumbnail-josip.odd .thumbnail-desc {
-  background: #e94a55;
-}
-
 .thumbnail-josip:nth-child(even) .thumbnail-desc {
   background: #e8830d;
 }
@@ -24618,7 +24613,7 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .thumbnail-desc {
-  background: #e8830d;
+  background: #839eb8;
   padding: 33px 10px;
   transition: .3s ease;
 }
@@ -24646,8 +24641,8 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .btn-java:hover {
-  background: #e7323f;
-  border-color: #e7323f;
+  background: #5e7d9a;
+  border-color: #5e7d9a;
 }
 
 .thumbnail-josip-title, .thumbnail-josip p {
@@ -25400,11 +25395,7 @@ a.thumbnail:hover {
   }
 }
 
-/** 2.20 Text Styling System */
-.page .text-italic {
-  font-style: italic;
-}
-
+/** 2.20 Text Styling System *
 .page .text-normal {
   font-style: normal;
 }
@@ -25711,13 +25702,6 @@ a.icon {
 .icon-sm {
   font-size: 48px;
   line-height: 48px;
-}
-
-.icon-sm.icon-rect, .icon-sm.icon-rounded, .icon-sm.icon-circle, .icon-sm.icon-outlined {
-  width: 60px;
-  height: 60px;
-  line-height: 58px;
-  font-size: 26px;
 }
 
 .icon-lg {
@@ -28381,7 +28365,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 .orangebg-button:hover, .orangebg-button:focus .orangebg-button:active {
   border:2px solid #fff;
   min-width: 130px;
-  background-color: #eb8f24;
+  background-color: #f39931;
   color:white;
 }
 
@@ -34617,12 +34601,12 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li:hover > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a {
-  color: #eb8f27;
+  color: #f39931;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow {
@@ -34639,12 +34623,12 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.opened > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.active > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a {
-  color: #eb8f27;
+  color: #f39931;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown hr, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown h6, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu hr, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu h6, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6 {
@@ -34680,7 +34664,7 @@ fieldset[disabled] .bg-primary .btn-java {
   transition: .3s all ease;
   opacity: 0;
   visibility: hidden;
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after {
@@ -34892,7 +34876,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown li a:hover {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown {
@@ -35029,20 +35013,20 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a {
-  color: #eb8f27;
+  color: #f39931;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before {
@@ -35082,12 +35066,12 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a {
-  color: #eb8f27;
+  color: #f39931;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before {
@@ -35099,15 +35083,15 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-cart span, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart span {
@@ -48501,12 +48485,12 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .ui-to-top:focus {
-  color: #eb8f27;
+  color: #f39931;
 }
 
 .ui-to-top:hover {
   color: #fff;
-  background: #eb8f27;
+  background: #f39931;
 }
 
 .ui-to-top.active {
