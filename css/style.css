@@ -37755,6 +37755,13 @@ fieldset[disabled] .bg-primary .btn-java {
 .rd-navbar-logo-center.rd-navbar-static .rd-navbar-nav-wrap, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-panel, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-wrap {
   transition: .3s all ease;
 }
+@media (min-width:768px){
+  .rd-navbar-nav{
+    position:absolute;
+    right:0;
+    top:0;
+  }
+}
 
 .rd-navbar-logo-center.rd-navbar-static.rd-navbar--is-stuck {
   margin-top: 0;
