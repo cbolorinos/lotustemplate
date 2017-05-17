@@ -44269,6 +44269,10 @@ html:not(.lt-ie10) .not-animated {
   [data-isotope-layout] [class*="col-"] {
     max-width: 100%;
   }
+  .section-85 {
+  padding-top: 40px;
+  padding-bottom: 85px;
+  }
 }
 
 [data-isotope-layout].isotope--loaded [class*="col-"] {
