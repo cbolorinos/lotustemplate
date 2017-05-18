@@ -505,11 +505,12 @@ li { list-style-type:none;}
   font-size: 16px;
   text-transform: uppercase;
 }
-.footermenu li>a:hover{
+.footermenu li>a:hover, .footermenu a:hover{
   font-weight:300;
   color:#999;
   font-size: 16px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 footer{
   background-color:#f5f1e7;
@@ -24224,7 +24225,7 @@ a.thumbnail:hover {
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(236, 96, 106, 0.7);
+  background: rgba(232, 131, 13, 0.7);
   z-index: 2;
   transition: .22s ease-in;
 }
