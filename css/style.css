@@ -5623,6 +5623,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   background-color: #f5f5f5;
   border-radius: 5px;
 }
+.breadcrumb-box {
+  background-color: rgba(245,241,231,0.5);
+  padding: 15px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .breadcrumb > li {
   display: inline-block;
@@ -7168,6 +7175,13 @@ button.close {
   .modal-lg {
     width: 900px;
   }
+  .breadcrumb-box {
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0px;
+  max-width: 300px;
+  background-color: rgba(1,1,1,0);
+  }
 }
 
 /** 1.32 Tooltip */
@@ -8041,13 +8055,33 @@ iframe {
   background-size: cover;
   background-repeat:no-repeat;
   margin:0 15px;
-  padding:30px;
+  padding:15px;
+  background-position: 65% 0;
+}
+.transparentbg{
+  padding: 15px;
+  background-color: rgba(244,241,232,0.6);
+  max-width: 500px;
 }
 
+.procedures > h5 > a{
+  color:#839eb8;
+}
+.right-border{
+  border-right:none;
+}
 @media (min-width: 768px) {
   .shell,
   .shell-wide {
     max-width: 750px;
+  }
+  .advert{
+    background-position: right;
+  }
+}
+@media (min-width: 480px){
+  .advert{
+    background-position: 80% 0;
   }
 }
 
@@ -8055,6 +8089,9 @@ iframe {
   .shell,
   .shell-wide {
     max-width: 970px;
+  }
+  .right-border{
+    border-right:2px solid #839eb8;
   }
 }
 
