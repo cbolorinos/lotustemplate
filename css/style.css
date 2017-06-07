@@ -503,17 +503,15 @@ li { list-style-type:none;}
   font-weight:300;
   color:#000;
   font-size: 16px;
-  text-transform: uppercase;
 }
 .footermenu li>a:hover, .footermenu a:hover{
   font-weight:300;
   color:#999;
   font-size: 16px;
-  text-transform: uppercase;
   text-decoration: none;
 }
 footer{
-  background-color:#f5f1e7;
+  background-color:#dde8da;
 }
 
 
@@ -1605,7 +1603,7 @@ html {
 }
 
 body {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   font-size: 15px;
   line-height: 1.6;
   color: #868686;
@@ -1622,12 +1620,12 @@ textarea {
 }
 
 a {
-  color: #e8830d;
+  color: #3e604a;
   text-decoration: none;
 }
 
 a:hover, a:focus {
-  color: #f39931;
+  color: #3e604a;
   text-decoration: underline;
 }
 
@@ -1707,10 +1705,10 @@ hr {
 /** 1.4  Type */
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   line-height: 1.1;
-  color: #434445;
+  color: #3b3128;
 }
 
 h1 small,
@@ -1729,7 +1727,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 h1, .h1,
@@ -1737,6 +1735,7 @@ h2, .h2,
 h3, .h3 {
   margin-top: 24px;
   margin-bottom: 12px;
+  color:#3b3128;
 }
 
 h1 small,
@@ -1772,30 +1771,37 @@ h6 .small, .h6 small,
 
 h1, .h1 {
   font-size: 80px;
+  font-weight: 900;
 }
 
 h2, .h2 {
   font-size: 60px;
+  font-weight: 900;
 }
 
 h3, .h3 {
   font-size: 46px;
+  font-weight: 900;
 }
 
 h4, .h4 {
   font-size: 24px;
+  font-weight: 700;
 }
 
 h5, .h5 {
   font-size: 22px;
+  font-weight: 700;
 }
 
 h6, .h6 {
   font-size: 18px;
+  font-weight: 700;
 }
 
 p {
   margin: 0 0 12px;
+  font-family: 'Fauna One', serif;
 }
 
 .lead {
@@ -1860,12 +1866,12 @@ mark,
 
 blockquote.quote .text-primary,
 .text-primary {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 blockquote.quote .text-success,
@@ -1918,7 +1924,7 @@ a.text-danger:focus {
 
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #e8830d;
+  background-color: #3e604a;
 }
 
 .bg-success {
@@ -2038,7 +2044,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #f5f1e7;
+  border-bottom: 1px dotted #dde8da;
 }
 
 .initialism {
@@ -2064,7 +2070,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.6;
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 blockquote footer:before,
@@ -3457,7 +3463,7 @@ fieldset[disabled] .btn-danger.focus {
 }
 
 .btn-link {
-  color: #e8830d;
+  color: #3e604a;
   font-weight: normal;
   border-radius: 0;
 }
@@ -3474,7 +3480,7 @@ fieldset[disabled] .btn-link {
 }
 
 .btn-link:hover, .btn-link:focus {
-  color: #f39931;
+  color: #3e604a;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -4881,14 +4887,14 @@ tbody.collapse.in {
 
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
   background-color: #f7f7f7;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .nav .nav-divider {
   height: 1px;
   margin: 11px 0;
   overflow: hidden;
-  background-color: #f5f1e7;
+  background-color: #dde8da;
 }
 
 .nav > li > a > img {
@@ -5539,7 +5545,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
   color: #000;
-  background-color: #f5f1e7;
+  background-color: #dde8da;
 }
 
 .navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
@@ -5566,7 +5572,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
   color: #000;
-  background-color: #f5f1e7;
+  background-color: #dde8da;
 }
 
 @media (max-width: 767px) {
@@ -5642,7 +5648,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 }
 
 .breadcrumb > .active {
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 /** 1.17 Pagination */
@@ -5703,7 +5709,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   z-index: 3;
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
   cursor: default;
 }
 
@@ -5925,7 +5931,7 @@ a.label:hover, a.label:focus {
 
 .list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #e8830d;
+  color: #3e604a;
   background-color: #fff;
 }
 
@@ -6028,7 +6034,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 /** 1.23 Alerts */
@@ -6339,7 +6345,7 @@ button.list-group-item {
 
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
   background-color: #f3f3f3;
-  color: #f5f1e7;
+  color: #dde8da;
   cursor: not-allowed;
 }
 
@@ -6348,14 +6354,14 @@ button.list-group-item {
 }
 
 .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -6814,26 +6820,26 @@ button.list-group-item-danger.active:focus {
 }
 
 .panel-primary {
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .panel-primary > .panel-heading {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #e8830d;
+  border-top-color: #3e604a;
 }
 
 .panel-primary > .panel-heading .badge {
-  color: #e8830d;
+  color: #3e604a;
   background-color: #fff;
 }
 
 .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #e8830d;
+  border-bottom-color: #3e604a;
 }
 
 .panel-success {
@@ -7095,7 +7101,7 @@ button.close {
 
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
 }
 
 .modal-header:before, .modal-header:after {
@@ -7124,7 +7130,7 @@ button.close {
 .modal-footer {
   padding: 15px;
   text-align: right;
-  border-top: 1px solid #f5f1e7;
+  border-top: 1px solid #dde8da;
 }
 
 .modal-footer:before, .modal-footer:after {
@@ -7189,7 +7195,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7256,7 +7262,7 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #e8830d;
+  border-top-color: #3e604a;
 }
 
 .tooltip.top-left .tooltip-arrow {
@@ -7264,7 +7270,7 @@ button.close {
   right: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #e8830d;
+  border-top-color: #3e604a;
 }
 
 .tooltip.top-right .tooltip-arrow {
@@ -7272,7 +7278,7 @@ button.close {
   left: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
-  border-top-color: #e8830d;
+  border-top-color: #3e604a;
 }
 
 .tooltip.right .tooltip-arrow {
@@ -7280,7 +7286,7 @@ button.close {
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
-  border-right-color: #e8830d;
+  border-right-color: #3e604a;
 }
 
 .tooltip.left .tooltip-arrow {
@@ -7288,7 +7294,7 @@ button.close {
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
-  border-left-color: #e8830d;
+  border-left-color: #3e604a;
 }
 
 .tooltip.bottom .tooltip-arrow {
@@ -7296,7 +7302,7 @@ button.close {
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #e8830d;
+  border-bottom-color: #3e604a;
 }
 
 .tooltip.bottom-left .tooltip-arrow {
@@ -7304,7 +7310,7 @@ button.close {
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #e8830d;
+  border-bottom-color: #3e604a;
 }
 
 .tooltip.bottom-right .tooltip-arrow {
@@ -7312,7 +7318,7 @@ button.close {
   left: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
-  border-bottom-color: #e8830d;
+  border-bottom-color: #3e604a;
 }
 
 /** 1.33 Popovers */
@@ -7324,7 +7330,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -8065,7 +8071,7 @@ iframe {
 }
 
 .procedures > h5 > a{
-  color:#839eb8;
+  color:#3b3128;
 }
 .right-border{
   border-right:none;
@@ -8091,7 +8097,7 @@ iframe {
     max-width: 970px;
   }
   .right-border{
-    border-right:2px solid #839eb8;
+    border-right:2px solid #3b3128;
   }
 }
 
@@ -10169,7 +10175,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 .text-subline {
   height: 1px;
   padding: 0;
-  background: #f5f1e7;
+  background: #dde8da;
   margin-bottom: 22px;
   border: none;
 }
@@ -10185,7 +10191,7 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .bg-java .text-subline:before {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 .divider {
@@ -10394,11 +10400,11 @@ html.lt-ie-10 .range > [class*="cell-lg-preffix-"] {
 }
 
 .font-default {
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
 }
 
 .font-accent {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 h1,
@@ -10406,8 +10412,7 @@ h1,
   font-size: 36px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (min-width: 768px) {
@@ -10431,13 +10436,13 @@ h2,
   font-size: 32px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: 200;
-  color: #839eb8;
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  color: #3b3128;
 }
 
 .breadcrumbsheader {
-  color:#839eb8;
+  color:#3b3128;
 }
 
 @media (min-width: 768px) {
@@ -10461,8 +10466,7 @@ h3,
   font-size: 28px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (min-width: 768px) {
@@ -10485,7 +10489,7 @@ h4,
   font-size: 24px;
   line-height: 1.5;
   font-weight: 900;
-  color:#000;
+  color:#3e604a;
 }
 
 h4 * + .icon,
@@ -10506,9 +10510,8 @@ h4 .icon + *,
 h5,
 .h5 {
   font-size: 23px;
-  color:#839eb8;
+  color:#3b3128;
   line-height: 1.5;
-  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -10524,8 +10527,7 @@ h6,
   font-size: 17px;
   line-height: 1.5;
   letter-spacing: 0.06em;
-  font-family: "Source Sans Pro", sans-serif;
-  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (min-width: 768px) {
@@ -10561,7 +10563,7 @@ h3 a:hover, .h3 a:hover,
 h4 a:hover, .h4 a:hover,
 h5 a:hover, .h5 a:hover,
 h6 a:hover, .h6 a:hover {
-  color: #f39931;
+  color: #3e604a;
 }
 
 h1 .small, .h1 .small,
@@ -10920,7 +10922,7 @@ mark, .mark {
 
 .list-vertical-right-line li:hover {
   color: #fff;
-  background: #e8830d;
+  background: #3e604a;
 }
 
 @media (min-width: 1200px) {
@@ -11014,7 +11016,7 @@ mark, .mark {
   left: 2px;
   top: 13px;
   transform: translateY(-50%);
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .list-marked-gray li:before {
@@ -11051,13 +11053,13 @@ mark, .mark {
 }
 
 .bg-white-liac {
-  background: #f5f1e7;
-  fill: #f5f1e7;
+  background: #dde8da;
+  fill: #dde8da;
 }
 
 .bg-primary {
-  background: #e8830d;
-  fill: #e8830d;
+  background: #3e604a;
+  fill: #3e604a;
 }
 
 .bg-gray-base {
@@ -11081,8 +11083,8 @@ mark, .mark {
 }
 
 .bg-gray-light {
-  background: #f5f1e7;
-  fill: #f5f1e7;
+  background: #dde8da;
+  fill: #dde8da;
 }
 
 .bg-lighter {
@@ -11158,11 +11160,11 @@ mark, .mark {
 }
 
 .bg-mantis, .scrollToNext {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 .bg-shark {
@@ -11219,11 +11221,11 @@ mark, .mark {
 }
 
 .bg-mantis-tilt {
-  background: -moz-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(45deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(45deg, #3e604a 0%, #84c450 100%);
 }
 
 .bg-shark-tilt {
@@ -11288,12 +11290,12 @@ mark, .mark {
 
 .page blockquote.quote .text-primary,
 .page .text-primary {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .page a.text-primary:hover,
 .page a.text-primary:focus {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .page blockquote.quote .text-gray-darker,
@@ -11301,9 +11303,7 @@ mark, .mark {
   color: #434445;
 }
 .headertext{
-  color:#839eb8;
-  font-size: 19px;
-  font-weight: 200;
+  text-align: center;
 }
 .headernumber{
   font-size: 37px;
@@ -11317,7 +11317,7 @@ mark, .mark {
 
 .page blockquote.quote .text-gray-light,
 .page .text-gray-light {
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 .page a.text-gray-light:hover,
@@ -11484,7 +11484,7 @@ mark, .mark {
 }
 
 .page a.text-gray-darker:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .page a.text-primary:hover {
@@ -11508,7 +11508,7 @@ mark, .mark {
 
 .page .text-mantis, .page .text-mantis:before {
   color: #42B574;
-  background-image: -webkit-linear-gradient(0deg, #e8830d 0%, #84c450 100%);
+  background-image: -webkit-linear-gradient(0deg, #3e604a 0%, #84c450 100%);
 }
 
 .page .text-acapulco, .page .text-acapulco:before {
@@ -11575,7 +11575,7 @@ mark, .mark {
 }
 
 .border-gray-light {
-  border-color: #f5f1e7;
+  border-color: #dde8da;
 }
 
 .border-gainsboro {
@@ -11620,11 +11620,10 @@ footer .btn-java:hover {
   border-radius: 3px;
   line-height: 28px;
   white-space: nowrap;
-  text-transform: uppercase;
   letter-spacing: 0.04em;
   border-width: 2px;
   border-radius: 5px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Fauna One', serif;
   font-weight: 400;
   transition: .3s;
   backface-visibility: hidden;
@@ -11681,7 +11680,7 @@ footer .btn-java:hover {
 .open > .btn-default.dropdown-toggle {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .btn-default:active, .btn-default.active,
@@ -11696,7 +11695,7 @@ footer .btn-java:hover {
 .open > .btn-default.dropdown-toggle.focus {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .btn-default.disabled, .btn-default[disabled],
@@ -11712,15 +11711,15 @@ fieldset[disabled] .btn-default {
 
 .btn-primary {
   color: #fff;
-  background-color: #e8830d;
-  border-color: #e8830d;
+  background-color: #3e604a;
+  border-color: #3e604a;
 }
 
 .btn-primary:focus, .btn-primary.focus, .btn-primary:hover, .btn-primary:active, .btn-primary.active,
 .open > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #f39931;
-  border-color: #f39931;
+  background-color: #567560;
+  border-color: #567560;
 }
 
 .btn-primary:active, .btn-primary.active,
@@ -11745,21 +11744,21 @@ fieldset[disabled] .btn-primary {
 }
 
 .btn-primary .badge {
-  color: #e8830d;
+  color: #3e604a;
   background-color: #fff;
 }
 
 .btn-java {
   color: #fff;
-  background-color: #839eb8;
-  border-color: #839eb8;
+  background-color: #3b3128;
+  border-color: #3b3128;
 }
 
 .btn-java:focus, .btn-java.focus, .btn-java:hover, .btn-java:active, .btn-java.active,
 .open > .btn-java.dropdown-toggle {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .btn-java:active, .btn-java.active,
@@ -11774,7 +11773,7 @@ fieldset[disabled] .btn-primary {
 .open > .btn-java.dropdown-toggle.focus {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .btn-java.disabled, .btn-java[disabled],
@@ -12170,7 +12169,6 @@ fieldset[disabled] .btn-darkest {
   border: none;
   padding-left: 12px;
   padding-right: 12px;
-  text-transform: uppercase;
   font-weight: 900;
   color: #434445;
   line-height: 1.9;
@@ -12188,11 +12186,11 @@ fieldset[disabled] .btn-darkest {
 }
 
 .btn-link:after {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 .btn-link, .btn-link:active, .btn-link.active, .btn-link[disabled],
@@ -12242,7 +12240,7 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn-more:hover .icon {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .btn-more:hover .icon + *,
@@ -12333,7 +12331,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-tag {
   text-transform: none;
   border-width: 1px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   padding: 1px 8px;
   font-size: 14px;
 }
@@ -12555,15 +12553,15 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-aqil-effect.btn-primary {
-  color: #e8830d;
-  border-color: #e8830d;
+  color: #3e604a;
+  border-color: #3e604a;
   transition-delay: .4s;
 }
 
 .btn.btn-aqil-effect.btn-primary:hover {
   color: #fff;
   transition-delay: .1s;
-  box-shadow: inset 1px 0 0 0 #e8830d;
+  box-shadow: inset 1px 0 0 0 #3e604a;
 }
 
 .btn.btn-aqil-effect.btn-primary:before, .btn.btn-aqil-effect.btn-primary:after,
@@ -12731,13 +12729,13 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-rayen-effect.btn-primary {
-  color: #e8830d;
-  border-color: #e8830d;
+  color: #3e604a;
+  border-color: #3e604a;
 }
 
 .btn.btn-rayen-effect.btn-primary:hover {
   color: #fff;
-  box-shadow: inset 1px 0 0 0 #e8830d;
+  box-shadow: inset 1px 0 0 0 #3e604a;
 }
 
 .btn.btn-rayen-effect.btn-primary:before {
@@ -12904,7 +12902,7 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-nuka-effect.btn-primary:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .btn.btn-nuka-effect.btn-primary:hover:after {
@@ -13053,7 +13051,7 @@ fieldset[disabled] .btn-link:focus {
 
 .btn.btn-naira-effect.btn-primary:hover {
   background-color: transparent;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .btn.btn-naira-effect.btn-primary .icon {
@@ -13245,7 +13243,7 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-santos-svg-effect.btn-primary {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .btn.btn-santos-svg-effect.btn-primary .shape {
@@ -13253,11 +13251,11 @@ fieldset[disabled] .btn-link:focus {
 }
 
 .btn.btn-santos-svg-effect.btn-primary:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .btn.btn-santos-svg-effect.btn-primary:hover .shape {
-  stroke: #e8830d;
+  stroke: #3e604a;
 }
 
 .btn.btn-santos-svg-effect.btn-deluge {
@@ -13431,6 +13429,9 @@ html.lt-ie11 .btn-santos-svg:hover {
     padding: 30px;
     margin-left: -30px;
     margin-right: -30px;
+  }
+  .headertext{
+  text-align: right;
   }
 }
 
@@ -13649,7 +13650,7 @@ html.lt-ie11 .btn-santos-svg:hover {
 
 .rd-navbar-iframe-demonstration {
   box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.15);
-  border: 1px solid #f5f1e7;
+  border: 1px solid #dde8da;
 }
 
 .rd-navbar-iframe-demonstration iframe {
@@ -24428,7 +24429,6 @@ a.thumbnail:hover {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
   margin-top: 25px;
   font-weight: 700;
@@ -24617,7 +24617,7 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip:nth-child(even) .thumbnail-desc {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 @media (max-width: 1200px) {
@@ -24629,9 +24629,8 @@ a.thumbnail:hover {
 
 .thumbnail-josip.thumbnail-services h5 {
   font-size: 18px;
-  text-transform: uppercase;
   font-weight: 400;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Fauna One', serif;
   letter-spacing: 0.06em;
 }
 
@@ -24650,7 +24649,7 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .thumbnail-desc {
-  background: #839eb8;
+  background: #3b3128;
   padding: 33px 10px;
   transition: .3s ease;
 }
@@ -25268,7 +25267,7 @@ a.thumbnail:hover {
 }
 
 .box-skin-1 h5 a:hover {
-  color: #e8830d !important;
+  color: #3e604a !important;
 }
 
 .pos-relative {
@@ -25576,7 +25575,6 @@ a.thumbnail:hover {
 .panel-footer {
   font-size: 16px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .panel-group .panel-title {
@@ -25584,7 +25582,7 @@ a.thumbnail:hover {
 }
 
 .panel-group .panel {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 .panel-group.accordion .panel-heading {
@@ -25708,7 +25706,7 @@ a.icon {
   line-height: 30px;
   font-size: 12px;
   color:#fff;
-  background-color: #000;
+  background-color: #3e604a;
 }
 
 .icon-xxs.icon-rect:hover, .icon-xxs.icon-rounded:hover, .icon-xxs.icon-circle:hover, .icon-xxs.icon-outlined:hover {
@@ -25717,7 +25715,7 @@ a.icon {
   line-height: 30px;
   font-size: 12px;
   color:#fff;
-  background-color: #999;
+  background-color: #567560;
 }
 
 .icon-xxs.fa-phone {
@@ -25767,7 +25765,7 @@ a.icon {
 
 .icon-default {
   color: #434445;
-  border-color: #f5f1e7;
+  border-color: #dde8da;
 }
 
 .icon-darker {
@@ -25776,8 +25774,8 @@ a.icon {
 }
 
 .icon-primary {
-  color: #e8830d;
-  border-color: #e8830d;
+  color: #3e604a;
+  border-color: #3e604a;
 }
 
 .icon-deluge {
@@ -25824,7 +25822,7 @@ a.icon {
 }
 
 .icon-gray-light {
-  background: #f5f1e7;
+  background: #dde8da;
   color: #868686;
 }
 
@@ -25847,11 +25845,11 @@ a.icon {
 }
 
 .icon-mantis-filled {
-  background: -moz-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(45deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(45deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(45deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(45deg, #3e604a 0%, #84c450 100%);
 }
 
 .icon-pink-filled {
@@ -25977,7 +25975,7 @@ a.icon {
 }
 
 .fontawesome-icon-list .icon-list-item:hover {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
 }
@@ -25993,7 +25991,7 @@ a.icon {
 }
 
 .icon-list .icon {
-  color: #e8830d;
+  color: #3e604a;
   font-size: 30px;
   line-height: 30px;
 }
@@ -26085,7 +26083,7 @@ a.icon {
 
 .progress-linear .progress-bar-linear-wrap {
   margin-top: 8px;
-  background: #f5f1e7;
+  background: #dde8da;
 }
 
 .progress-linear .progress-bar-linear {
@@ -26120,7 +26118,7 @@ a.icon {
   content: '';
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  border: 1px solid #f5f1e7;
+  border: 1px solid #dde8da;
 }
 
 .progress-bar-circle canvas {
@@ -26133,7 +26131,7 @@ a.icon {
   left: 50%;
   font-size: 18px;
   line-height: 24px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Fauna One', serif;
   color: #434445;
   transform: translate(-50%, -50%);
 }
@@ -26534,7 +26532,6 @@ button.list-group-item-danger.active:focus {
 .snackbars-right {
   display: inline-block;
   float: right;
-  text-transform: uppercase;
 }
 
 .snackbars-right:hover {
@@ -27005,7 +27002,6 @@ html .group-bottom > *, html .group-bottom > *:first-child {
   margin-top: 0;
   font-size: 15px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .box-comment-img {
@@ -27316,7 +27312,6 @@ html .group-bottom > *, html .group-bottom > *:first-child {
   margin-top: 16px;
   margin-bottom: 0;
   color: #f54b0f;
-  text-transform: uppercase;
 }
 
 .quote-slider-2 .quote-desc {
@@ -27341,7 +27336,6 @@ html .group-bottom > *, html .group-bottom > *:first-child {
 .quote-slider-3 .quote-author {
   margin-top: 16px;
   margin-bottom: 0;
-  text-transform: uppercase;
 }
 
 .quote-slider-3 .quote-desc {
@@ -27412,7 +27406,6 @@ html .group-bottom > *, html .group-bottom > *:first-child {
 
 .quote-outboxed .quote-author {
   margin: 0 0 6px;
-  text-transform: uppercase;
 }
 
 .quote-outboxed .quote-desc {
@@ -27466,8 +27459,8 @@ html .group-bottom > *, html .group-bottom > *:first-child {
 .pagination-classic > li.active > a,
 .pagination-classic > li.active > span {
   color: #fff;
-  background: #e8830d;
-  border-color: #e8830d;
+  background: #3e604a;
+  border-color: #3e604a;
   cursor: default;
 }
 
@@ -27575,7 +27568,6 @@ html .group-bottom > *, html .group-bottom > *:first-child {
   font-weight: 900;
   font-size: 14px;
   line-height: 24px;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
@@ -27652,7 +27644,6 @@ html .group-bottom > *, html .group-bottom > *:first-child {
   font-weight: 900;
   line-height: 1;
   text-align: center;
-  text-transform: uppercase;
   white-space: nowrap;
   letter-spacing: .06em;
   transition: .3s;
@@ -27840,7 +27831,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 }
 
 .post-modern .post-title h4 {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .post-modern .post-title h4 a {
@@ -27979,7 +27970,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 }
 
 .post-modern-classic-meta .icon:hover, .post-modern-classic-meta .icon:hover .icon {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .post-modern-classic * + .list-inline-dashed {
@@ -27999,7 +27990,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 }
 
 .post-modern-classic .post-content .list-inline a:hover {
-  color: #e8830d;
+  color: #3e604a;
   text-decoration: none;
 }
 
@@ -28096,7 +28087,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
     width: 1px;
     height: 34px;
     content: '';
-    background: #f5f1e7;
+    background: #dde8da;
   }
   .post-modern-timeline:after {
     position: absolute;
@@ -28104,7 +28095,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
     bottom: -38px;
     width: 1px;
     content: '';
-    background: #f5f1e7;
+    background: #dde8da;
     pointer-events: none;
   }
   .post-modern-timeline .post-author-img {
@@ -28119,7 +28110,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
     font-weight: 700;
     white-space: nowrap;
     margin-left: 9px;
-    color: #e8830d;
+    color: #3e604a;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
@@ -28136,7 +28127,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
     margin-top: 18px;
     width: 70px;
     height: 1px;
-    background: #f5f1e7;
+    background: #dde8da;
     pointer-events: none;
   }
   .post-modern-timeline:first-child .post-author:before {
@@ -28274,7 +28265,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   }
   .post-vacation:hover .h4 {
-    color: #e8830d;
+    color: #3e604a;
   }
 }
 
@@ -28351,7 +28342,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 
 .single-deal-post-price {
   float: left;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Fauna One', serif;
   font-size: 24px;
 }
 
@@ -28379,7 +28370,7 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 
 /** 2.40 Form Addons */
 .orangebg{
-  background-color: #e8830d;
+  background-color: #3e604a;
   padding:15px;
 }
 .orangebg h6{
@@ -28395,14 +28386,14 @@ h1 .label-custom, h2 .label-custom, h3 .label-custom, h4 .label-custom, h5 .labe
 .orangebg-button {
   border:2px solid #fff;
   min-width: 130px;
-  background-color: #e8830d;
+  background-color: #3e604a;
   color:white;
   margin-bottom: 20px;
 }
 .orangebg-button:hover, .orangebg-button:focus .orangebg-button:active {
   border:2px solid #fff;
   min-width: 130px;
-  background-color: #f39931;
+  background-color: #567560;
   color:white;
 }
 
@@ -29028,7 +29019,7 @@ input.text-gray-darker::-webkit-input-placeholder {
   display: inline-block;
   width: 32px;
   height: 14px;
-  background-color: #f5f1e7;
+  background-color: #dde8da;
   border-radius: 15px;
   transition: background 0.3s ease;
   vertical-align: middle;
@@ -29089,7 +29080,7 @@ input.text-gray-darker::-webkit-input-placeholder {
   background: none;
   border: none;
   box-shadow: none;
-  color: #e8830d;
+  color: #3e604a;
   transition: .3s all ease;
 }
 
@@ -32125,7 +32116,7 @@ html .page .offset-none {
 }
 
 .box-icon-bordered {
-  border: 2px solid #f5f1e7;
+  border: 2px solid #dde8da;
 }
 
 .box-icon .icon {
@@ -32292,7 +32283,6 @@ html .page .offset-none {
   font-size: 11px;
   font-weight: 900;
   line-height: 34px;
-  text-transform: uppercase;
   letter-spacing: .119em;
 }
 
@@ -32306,7 +32296,7 @@ html .page .offset-none {
 .box-planning-type-1 .box-planning-label .box-planning-svg {
   width: 150px;
   height: 150px;
-  fill: #e8830d;
+  fill: #3e604a;
 }
 
 .box-planning-type-1.active {
@@ -32314,8 +32304,8 @@ html .page .offset-none {
 }
 
 .box-planning-type-1.active .h1 {
-  color: #e8830d;
-  background: -webkit-linear-gradient(0deg, #e8830d 0%, #84c450 100%);
+  color: #3e604a;
+  background: -webkit-linear-gradient(0deg, #3e604a 0%, #84c450 100%);
   /* safari5.1+,chrome10+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -32398,7 +32388,7 @@ html .page .offset-none {
 .open > .box-planning-type-4 .btn-default.dropdown-toggle {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .box-planning-type-3 .btn-default:active, .box-planning-type-3 .btn-default.active,
@@ -32417,7 +32407,7 @@ html .page .offset-none {
 .open > .box-planning-type-4 .btn-default.dropdown-toggle.focus {
   color: #fff;
   background-color: #868686;
-  border-color: #e8830d;
+  border-color: #3e604a;
 }
 
 .box-planning-type-3 .btn-default.disabled, .box-planning-type-3 .btn-default[disabled],
@@ -32478,7 +32468,7 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 }
 
 .table-custom tbody tr {
-  border: 1px solid #f5f1e7;
+  border: 1px solid #dde8da;
   border-left: none;
   border-right: none;
 }
@@ -32545,11 +32535,11 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 }
 
 .table-custom.bordered-table tbody tr {
-  border: 1px solid #f5f1e7;
+  border: 1px solid #dde8da;
 }
 
 .table-custom.bordered-table tbody tr td, .table-custom.bordered-table tbody tr th {
-  border: 1px solid #f5f1e7;
+  border: 1px solid #dde8da;
 }
 
 .table-custom.bordered-table tbody tr th {
@@ -32586,9 +32576,9 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 }
 
 .table-custom.table-primary tbody tr th {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
-  border-top-color: #e8830d;
+  border-top-color: #3e604a;
 }
 
 @media (max-width: 767px) {
@@ -32608,17 +32598,17 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 }
 
 .table-custom.table-dark-blue tbody tr th {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
-  border-top-color: #e8830d;
+  border-top-color: #3e604a;
 }
 
 .table-custom.table-dark-blue tbody tr:first-child {
-  border: 1px solid #e8830d;
+  border: 1px solid #3e604a;
 }
 
 .table-custom.table-product tbody tr:first-child {
-  border-bottom: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
 }
 
 .table-custom.table-product tbody tr:first-child td {
@@ -32733,7 +32723,7 @@ fieldset[disabled] .box-planning-type-4 .btn-default {
 }
 
 .toolbar-shop-icon.active, .toolbar-shop-icon:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .toolbar-shop-sorter {
@@ -33445,7 +33435,7 @@ fieldset[disabled] .member-block-type-3 .btn-group .btn {
 }
 
 .bg-deluge .responsive-tabs-dashed .resp-tabs-list > li, .bg-butterfly-bush .responsive-tabs-dashed .resp-tabs-list > li, .navbar-inverse .responsive-tabs-dashed .resp-tabs-list > li, .context-dark .responsive-tabs-dashed .resp-tabs-list > li {
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 .bg-deluge .responsive-tabs-dashed .resp-tabs-list > li.resp-tab-active, .bg-butterfly-bush .responsive-tabs-dashed .resp-tabs-list > li.resp-tab-active, .navbar-inverse .responsive-tabs-dashed .resp-tabs-list > li.resp-tab-active, .context-dark .responsive-tabs-dashed .resp-tabs-list > li.resp-tab-active, .bg-deluge .responsive-tabs-dashed .resp-tabs-list > li:hover, .bg-butterfly-bush .responsive-tabs-dashed .resp-tabs-list > li:hover, .navbar-inverse .responsive-tabs-dashed .resp-tabs-list > li:hover, .context-dark .responsive-tabs-dashed .resp-tabs-list > li:hover {
@@ -33453,7 +33443,7 @@ fieldset[disabled] .member-block-type-3 .btn-group .btn {
 }
 
 .bg-deluge .responsive-tabs-dashed .resp-tabs-list > li + li:before, .bg-butterfly-bush .responsive-tabs-dashed .resp-tabs-list > li + li:before, .navbar-inverse .responsive-tabs-dashed .resp-tabs-list > li + li:before, .context-dark .responsive-tabs-dashed .resp-tabs-list > li + li:before {
-  background: #f5f1e7;
+  background: #dde8da;
 }
 
 .bg-deluge .form-group > .form-control, .bg-butterfly-bush .form-group > .form-control, .navbar-inverse .form-group > .form-control, .context-dark .form-group > .form-control {
@@ -33754,7 +33744,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .service .service-desc {
   display: block;
-  background: #e8830d;
+  background: #3e604a;
   max-width: 320px;
   margin-left: auto;
   margin-right: auto;
@@ -33824,7 +33814,6 @@ fieldset[disabled] .bg-primary .btn-java {
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
-  text-transform: uppercase;
 }
 
 .rd-navbar {
@@ -33846,7 +33835,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar li a {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .rd-navbar .responsive-tabs-classic {
@@ -34153,7 +34142,7 @@ fieldset[disabled] .bg-primary .btn-java {
     visibility: visible;
   }
   .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle span {
-    color: #e8830d;
+    color: #3e604a;
     transition: .05s ease-in;
   }
   .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle span:before, .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle span:after {
@@ -34166,13 +34155,13 @@ fieldset[disabled] .bg-primary .btn-java {
   }
   .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle:hover span {
     color: #fff;
-    background: #e8830d;
+    background: #3e604a;
   }
   .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle.active {
     left: 315px;
   }
   .rd-navbar-sidebar-toggle.rd-navbar-fixed .rd-navbar-toggle.active:after {
-    color: #e8830d;
+    color: #3e604a;
   }
 }
 
@@ -34299,7 +34288,6 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-default .rd-navbar-product-title, .rd-navbar-floated .rd-navbar-product-title, .rd-navbar-logo-center .rd-navbar-product-title {
   font-size: 12px;
-  text-transform: uppercase;
   margin-bottom: 5px;
 }
 
@@ -34315,7 +34303,6 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .rd-navbar-default .rd-navbar-cart-total-title, .rd-navbar-floated .rd-navbar-cart-total-title, .rd-navbar-logo-center .rd-navbar-cart-total-title {
   font-size: 14px;
-  text-transform: uppercase;
   padding-right: 75px;
   margin-bottom: 24px;
 }
@@ -34630,24 +34617,24 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li a, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .rd-navbar-submenu-toggle {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li:hover > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > a {
-  color: #f39931;
+  color: #3e604a;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li:hover > .rd-navbar-submenu-toggle {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion .resp-arrow {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion.resp-tab-active, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion:hover, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion:hover, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion:hover, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li .responsive-tabs .resp-accordion:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li .responsive-tabs .resp-accordion:hover {
@@ -34660,12 +34647,12 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.opened > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > a, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.active > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > a {
-  color: #f39931;
+  color: #3e604a;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.opened > .rd-navbar-submenu-toggle, .rd-navbar-default.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-nav li.active > .rd-navbar-submenu-toggle {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown hr, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown hr, .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown h6, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown h6, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu hr, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu hr, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu h6, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu h6 {
@@ -34673,10 +34660,10 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown li > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown li > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu li > a, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li > a, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li > a, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li > a {
-  color: #e8830d;
+  color: #3e604a;
   text-transform: capitalize !important;
   font-size: 14px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown li, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown li, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu li, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu li, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li {
@@ -34701,7 +34688,7 @@ fieldset[disabled] .bg-primary .btn-java {
   transition: .3s all ease;
   opacity: 0;
   visibility: hidden;
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-dropdown li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-megamenu li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-fixed .rd-navbar-megamenu li:hover:after {
@@ -34788,7 +34775,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-fixed .form-search-submit, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .form-search-submit, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .form-search-submit, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .form-search-submit, .rd-navbar-logo-center.rd-navbar-light .form-search-submit {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-fixed .form-search-input, .rd-navbar-minimal.rd-navbar-light.rd-navbar-fixed .form-search-input, .rd-navbar-sidebar-toggle.rd-navbar-light.rd-navbar-fixed .form-search-input, .rd-navbar-floated.rd-navbar-light.rd-navbar-fixed .form-search-input, .rd-navbar-logo-center.rd-navbar-light .form-search-input {
@@ -34835,7 +34822,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.active, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li.focus, .rd-navbar-minimal.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-nav > li:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-nav > li:hover {
-  background-color: #f5f1e7;
+  background-color: #dde8da;
   color:#868686;
 }
 
@@ -34876,7 +34863,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-nav > li a {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown {
@@ -34897,7 +34884,7 @@ fieldset[disabled] .bg-primary .btn-java {
   padding: 4px 0 4px 0px;
   margin-left: 25px;
   margin-right: 25px;
-  border-bottom: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li:last-child, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown li:last-child, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown li:last-child, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown li:last-child, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown li:last-child, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li:last-child, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu li:last-child, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li:last-child, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li:last-child, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li:last-child, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown li:last-child, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown li:last-child, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown li:last-child, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown li:last-child, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown li:last-child {
@@ -34907,13 +34894,13 @@ fieldset[disabled] .bg-primary .btn-java {
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown li a, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown li a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown li a, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown li a, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu li a, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li a, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li a, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown li a, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown li a, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown li a, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown li a, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown li a {
   text-transform: capitalize;
   font-size: 14px;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   color: #000;
   white-space: normal;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown li a:hover, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu li a:hover, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown li a:hover, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown li a:hover {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-dropdown .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-megamenu .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-minimal.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-static .rd-navbar-cart-dropdown .rd-navbar-dropdown {
@@ -35038,7 +35025,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-static .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-minimal.rd-navbar-static .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-static .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-static .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-static .responsive-tabs .resp-tabs-list li.resp-tab-active:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu {
@@ -35046,24 +35033,24 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li > a {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover > a {
-  color: #f39931;
+  color: #3e604a;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu li:hover:after {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before {
@@ -35075,11 +35062,11 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-default.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-floated.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-top-panel.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-logo-center.rd-navbar-dark.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover {
@@ -35091,24 +35078,24 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li.rd-navbar--has-dropdown:after, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li.rd-navbar--has-dropdown:after {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li > a, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li > a {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li .rd-navbar-icon, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li .rd-navbar-icon {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover > a, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover > a {
-  color: #f39931;
+  color: #3e604a;
   background: transparent;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown li:hover:after, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu li:hover:after {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list:before, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list:before {
@@ -35116,19 +35103,19 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:before {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li.resp-tab-active:hover {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-dropdown .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover, .rd-navbar-logo-center.rd-navbar-light.rd-navbar-static .rd-navbar-megamenu .responsive-tabs .resp-tabs-list li:hover {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-cart span, .rd-navbar-floated.rd-navbar-static .rd-navbar-cart span {
@@ -35199,7 +35186,7 @@ fieldset[disabled] .bg-primary .btn-java {
   width: 240px;
   padding: 13px 15px 15px;
   text-align: left;
-  border-top: 1px solid #e8830d;
+  border-top: 1px solid #3e604a;
   opacity: 0;
   visibility: hidden;
   transition: .3s all ease;
@@ -35249,7 +35236,6 @@ fieldset[disabled] .bg-primary .btn-java {
   padding-left: 50px;
   font-size: 26px;
   font-weight: 900;
-  text-transform: uppercase;
   letter-spacing: 0.06em;
 }
 
@@ -35264,7 +35250,6 @@ fieldset[disabled] .bg-primary .btn-java {
   font-size: 26px;
   padding: 0px 13% 0px 85px;
   border: none;
-  text-transform: uppercase;
   font-weight: 900;
 }
 
@@ -36072,7 +36057,7 @@ fieldset[disabled] .bg-primary .btn-java {
   .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit {
     color: #999;
     background-color: #868686;
-    border-color: #e8830d;
+    border-color: #3e604a;
   }
   .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit:focus, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit.focus, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit:hover, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit:active, .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit.active,
   .open > .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit.dropdown-toggle {
@@ -36099,7 +36084,7 @@ fieldset[disabled] .bg-primary .btn-java {
     opacity: .5;
   }
   .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search_submit .badge {
-    color: #e8830d;
+    color: #3e604a;
     background-color: #fff;
   }
   .rd-navbar-sidebar-fixed.rd-navbar-light .rd-navbar-sidebar-fixed-search .rd-search-results-live .search-fullscreen-results-item-tags {
@@ -36289,11 +36274,11 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-top-panel.rd-navbar-dark .rd-navbar-top-links a:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-top-panel.rd-navbar-dark .contact-info {
-  color: #f5f1e7;
+  color: #dde8da;
 }
 
 .rd-navbar-top-panel.rd-navbar-dark .contact-info .icon {
@@ -36313,7 +36298,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-top-panel.rd-navbar-light .rd-navbar-top-links a:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-top-panel.rd-navbar-light .contact-info {
@@ -36414,15 +36399,15 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-static.rd-navbar-logo-center.rd-navbar-dark .rd-navbar-nav > li a:after {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 .rd-navbar-static.rd-navbar-logo-center.rd-navbar-dark .rd-navbar-nav > li.focus > a, .rd-navbar-static.rd-navbar-logo-center.rd-navbar-dark .rd-navbar-nav > li > a:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-static.rd-navbar-logo-center.rd-navbar-dark .rd-navbar-nav > li.active > a {
@@ -36439,15 +36424,15 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-static.rd-navbar-logo-center.rd-navbar-light .rd-navbar-nav > li > a:after {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 .rd-navbar-static.rd-navbar-logo-center.rd-navbar-light .rd-navbar-nav > li.focus > a, .rd-navbar-static.rd-navbar-logo-center.rd-navbar-light .rd-navbar-nav > li > a:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-static.rd-navbar-logo-center.rd-navbar-light .rd-navbar-nav > li.active > a {
@@ -36545,7 +36530,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-static .rd-navbar-floated.rd-navbar-light.rd-navbar-static .rd-navbar-nav > li a, .rd-navbar-default.rd-navbar-static .rd-navbar-top-panel.rd-navbar-light.rd-navbar-static .rd-navbar-nav > li a {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-search-form .rd-navbar-search-form-input {
@@ -36762,7 +36747,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li.focus > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li.active > a, .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav > li:hover > a {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-dropdown {
@@ -36817,7 +36802,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-default.rd-navbar-light .rd-navbar-search-toggle span, .rd-navbar-default.rd-navbar-light .rd-navbar-cart span {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-search-form-input, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-search-toggle, .rd-navbar-default.rd-navbar-light.rd-navbar-static .rd-navbar-cart {
@@ -37112,14 +37097,14 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-menu-wrap .rd-navbar-nav > li > a {
-  color: #000;
+  color: #3b3128;
 }
 
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand img {
   vertical-align: baseline;
   position:absolute;
-  top:10px;
+  top:20px;
 }
 
 .rd-navbar-minimal.rd-navbar-static .rd-navbar-brand-slogan {
@@ -37614,7 +37599,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-navbar-logo-center .rd-navbar-dropdown li .rd-navbar-product-title a:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rd-navbar-logo-center.rd-navbar-fixed .rd-navbar-brand {
@@ -38030,7 +38015,6 @@ fieldset[disabled] .bg-primary .btn-java {
 
 .match {
   font-size: 15px;
-  text-transform: uppercase;
   letter-spacing: 0.12em;
   color: #868686;
 }
@@ -38040,7 +38024,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .search {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -38173,7 +38157,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .rd-video-context-wrapper ul li:hover, .rd-video-context-wrapper ul li.active {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -38237,7 +38221,7 @@ fieldset[disabled] .bg-primary .btn-java {
 .rd-parallax-layer[data-url] {
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: left center;
+  background-position: center;
 }
 
 .rd-parallax .rd-parallax-layer[data-type="media"] + * {
@@ -38568,7 +38552,7 @@ fieldset[disabled] .bg-primary .btn-java {
 
 @media (min-width: 992px) {
   .swiper-pagination-bullet {
-    background: #f5f1e7;
+    background: #dde8da;
   }
   .swiper-pagination-bullet:before {
     content: '';
@@ -38585,7 +38569,7 @@ fieldset[disabled] .bg-primary .btn-java {
     border-radius: 50%;
   }
   .swiper-pagination-bullet-active, .swiper-pagination-bullet:hover {
-    background: #e8830d;
+    background: #3e604a;
   }
   .swiper-pagination-bullet-active:before, .swiper-pagination-bullet:hover:before {
     -webkit-transform: scale(1);
@@ -38602,7 +38586,7 @@ fieldset[disabled] .bg-primary .btn-java {
 }
 
 .swiper-pagination-bullet-active {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 .swiper-pagination-white .swiper-pagination-bullet-active {
@@ -38908,7 +38892,6 @@ fieldset[disabled] .bg-primary .btn-java {
   width: 100%;
   color: #FFF;
   line-height: 1;
-  text-transform: uppercase;
   font-size: 13px;
   opacity: 0;
   transition: 0.3s;
@@ -39088,7 +39071,7 @@ fieldset[disabled] .bg-primary .btn-java {
   height: 100%;
   width: 100%;
   position: relative;
-  background: #e8830d;
+  background: #3e604a;
   left: 0;
   top: 0;
 }
@@ -42443,7 +42426,7 @@ html:not(.lt-ie10) .not-animated {
   height: 8px;
   line-height: 8px;
   border-radius: 50%;
-  background: #f5f1e7;
+  background: #dde8da;
   position: relative;
 }
 
@@ -42523,7 +42506,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .owl-carousel-arrows .owl-dot:hover, .owl-carousel-arrows .owl-dot.active {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 .owl-carousel-arrows-fullwidth .owl-prev {
@@ -42540,7 +42523,7 @@ html:not(.lt-ie10) .not-animated {
 }
 
 .owl-carousel-class-light .owl-dot.active, .owl-carousel-class-light .owl-dot:hover {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 .owl-carousel-dots-custom-style.owl-carousel-default .owl-dot:before {
@@ -44380,7 +44363,7 @@ html:not(.lt-ie10) .not-animated {
   white-space: nowrap;
   line-height: 1.5;
   padding: 5px 20px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
 
@@ -44578,11 +44561,11 @@ html:not(.lt-ie10) .not-animated {
     transition: .4s;
   }
   .isotope-filter-collapse-lg .isotope-filters-list > li > a:after {
-    background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-    background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-    background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-    background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-    background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+    background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+    background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+    background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+    background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+    background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
   }
   .isotope-filter-collapse-lg .isotope-filters-list > li > a.active, .isotope-filter-collapse-lg .isotope-filters-list > li > a:hover {
     color: #434445;
@@ -45405,7 +45388,7 @@ a.pswp__share--download:hover {
   overflow: hidden;
   font-size: 15px;
   font-weight: 700;
-  color: #e8830d;
+  color: #3e604a;
   text-align: left;
   text-overflow: ellipsis;
   transition: color .2s ease-in;
@@ -45435,7 +45418,7 @@ a.pswp__share--download:hover {
 }
 
 .responsive-tabs .resp-accordion.resp-tab-active {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .responsive-tabs .resp-accordion.resp-tab-active .resp-arrow:before {
@@ -45458,15 +45441,14 @@ a.pswp__share--download:hover {
   padding: 0 0 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #e8830d;
-  text-transform: uppercase;
+  color: #3e604a;
   list-style-type: none;
   cursor: pointer;
   transition: color .2s ease-in;
 }
 
 .responsive-tabs .resp-tabs-list li.resp-tab-active, .responsive-tabs .resp-tabs-list li:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .responsive-tabs .resp-tab-content {
@@ -45524,12 +45506,12 @@ a.pswp__share--download:hover {
 }
 
 .responsive-tabs-classic {
-  border-bottom: 1px solid #f5f1e7;
-  border-top: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
+  border-top: 1px solid #dde8da;
 }
 
 .responsive-tabs-classic .resp-tab-content + .resp-accordion {
-  border-top: 1px solid #f5f1e7;
+  border-top: 1px solid #dde8da;
 }
 
 @media (min-width: 992px) {
@@ -45546,7 +45528,7 @@ a.pswp__share--download:hover {
   .responsive-tabs-classic[data-type="vertical"] .resp-tabs-list li, .responsive-tabs-classic[data-type="horizontal"] .resp-tabs-list li {
     font-size: 18px;
     line-height: 1.33333;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Playfair Display', serif;
     letter-spacing: 0.06em;
     color: #868686;
     font-weight: 400;
@@ -45654,7 +45636,7 @@ a.pswp__share--download:hover {
     letter-spacing: 0.06em;
     color: #434445;
     text-transform: uppercase;
-    background: #f5f1e7;
+    background: #dde8da;
     border-top: 1px solid #bdbdbd;
     border-bottom: 1px solid transparent;
     border-left: 1px solid #bdbdbd;
@@ -45762,7 +45744,7 @@ a.pswp__share--download:hover {
 }
 
 .responsive-tabs-dashed .resp-tab-content .form-label.focus {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .responsive-tabs-dashed .resp-tabs-list > li {
@@ -45772,7 +45754,6 @@ a.pswp__share--download:hover {
   font-weight: 900;
   letter-spacing: 0.06em;
   color: #868686;
-  text-transform: uppercase;
 }
 
 .responsive-tabs-dashed .resp-tabs-list > li.resp-tab-active, .responsive-tabs-dashed .resp-tabs-list > li:hover {
@@ -46025,7 +46006,7 @@ a.pswp__share--download:hover {
   background-color: transparent;
   border: 1px solid #bdbdbd;
   color: #212121;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   font-size: 14px;
   outline: 0;
 }
@@ -46035,7 +46016,7 @@ a.pswp__share--download:hover {
   border: 1px solid #bdbdbd;
   border-radius: 5px;
   color: #212121;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   font-size: 14px;
 }
 
@@ -46744,7 +46725,6 @@ a.pswp__share--download:hover {
   font-weight: 900;
   font-size: 22px;
   line-height: 2.2;
-  text-transform: uppercase;
   color: #434445;
 }
 
@@ -46811,7 +46791,6 @@ a.pswp__share--download:hover {
   text-align: center;
   font-size: 44px;
   color: rgba(67, 68, 69, 0.2);
-  text-transform: uppercase;
 }
 
 @media (min-width: 768px) {
@@ -46939,11 +46918,11 @@ a.pswp__share--download:hover {
 }
 
 .rd-audio-progress-bar .current {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 @media (min-width: 480px) {
@@ -47053,11 +47032,11 @@ a.pswp__share--download:hover {
 }
 
 .rd-audio-volume-bar .current {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 @media (min-width: 480px) {
@@ -47175,7 +47154,6 @@ a.pswp__share--download:hover {
   text-align: left;
   letter-spacing: .12em;
   border-bottom: 1px solid #bdbdbd;
-  text-transform: uppercase;
 }
 
 .rd-audio-playlist {
@@ -47229,7 +47207,7 @@ a.pswp__share--download:hover {
 }
 
 .rd-audio-playlist li:hover {
-  background: #f5f1e7;
+  background: #dde8da;
 }
 
 @media (min-width: 480px) {
@@ -47349,11 +47327,11 @@ a.pswp__share--download:hover {
 }
 
 .rd-video-volume-bar .current {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 .rd-video-wrap {
@@ -47492,11 +47470,11 @@ a.pswp__share--download:hover {
 }
 
 .rd-video-progress-bar .current {
-  background: -moz-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -webkit-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -o-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: -ms-linear-gradient(90deg, #e8830d 0%, #84c450 100%);
-  background: linear-gradient(90deg, #e8830d 0%, #84c450 100%);
+  background: -moz-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -webkit-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -o-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: -ms-linear-gradient(90deg, #3e604a 0%, #84c450 100%);
+  background: linear-gradient(90deg, #3e604a 0%, #84c450 100%);
 }
 
 @media (min-width: 768px) {
@@ -47731,7 +47709,6 @@ a.pswp__share--download:hover {
   display: inline-block;
   font-size: 24px;
   font-weight: 400;
-  text-transform: uppercase;
   color: #fff;
 }
 
@@ -47758,7 +47735,7 @@ a.pswp__share--download:hover {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  color: #e8830d;
+  color: #3e604a;
 }
 
 .rdc-next {
@@ -47812,7 +47789,7 @@ a.pswp__share--download:hover {
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border-top: 3px solid #e8830d;
+  border-top: 3px solid #3e604a;
   z-index: 1;
 }
 
@@ -47843,7 +47820,7 @@ a.pswp__share--download:hover {
 
 .rdc-event.active + .rdc-event.active,
 .rdc-event.active ~ .rdc-event.active {
-  border-top: 1px solid #f5f1e7;
+  border-top: 1px solid #dde8da;
   padding-top: 5px;
 }
 
@@ -47867,7 +47844,6 @@ a.pswp__share--download:hover {
   padding: 0;
   font-size: 13px;
   font-weight: 700;
-  text-transform: uppercase;
   text-align: center;
   color: #868686;
 }
@@ -47922,8 +47898,8 @@ a.pswp__share--download:hover {
 
 @media (min-width: 1200px) {
   .rdc-table_has-events:hover {
-    background: #e8830d !important;
-    border-color: #e8830d !important;
+    background: #3e604a !important;
+    border-color: #3e604a !important;
   }
   .rdc-table_has-events:hover .rdc-table_date,
   .rdc-table_has-events:hover .icon,
@@ -47942,7 +47918,7 @@ a.pswp__share--download:hover {
   height: 4px;
   line-height: 4px;
   border-radius: 50%;
-  background: #e8830d;
+  background: #3e604a;
   -webkit-transition: 0.35s all ease;
   -o-transition: 0.35s all ease;
   transition: 0.35s all ease;
@@ -47998,7 +47974,7 @@ a.pswp__share--download:hover {
     box-shadow: none;
   }
   .rd-calendar-fullwidth .rd-calendar .rdc-next, .rd-calendar-fullwidth .rd-calendar .rdc-prev {
-    color: #e8830d;
+    color: #3e604a;
   }
   .rd-calendar-fullwidth .rd-calendar .rdc-panel {
     background: transparent;
@@ -48014,7 +47990,7 @@ a.pswp__share--download:hover {
   }
   .rd-calendar-fullwidth .rd-calendar .rdc-table_day {
     color: #868686;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 10px;
@@ -48068,7 +48044,7 @@ a.pswp__share--download:hover {
     color: #fff;
   }
   .rd-calendar-fullwidth .rd-calendar .rdc-table_has-events .widget-event .icon {
-    color: #e8830d;
+    color: #3e604a;
     display: block;
   }
   .rd-calendar-fullwidth .rd-calendar .rdc-table_has-events .widget-event time {
@@ -48262,7 +48238,7 @@ a.pswp__share--download:hover {
 }
 
 .dtp-header {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
   text-align: center;
   padding: 0.3rem;
@@ -48357,7 +48333,7 @@ a.pswp__share--download:hover {
 }
 
 .dtp table.dtp-picker-days tr > td > a.selected {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -48416,7 +48392,7 @@ a.pswp__share--download:hover {
 }
 
 .dtp-actual-meridien a.selected {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -48438,7 +48414,7 @@ a.pswp__share--download:hover {
 }
 
 .dtp-picker-time > a.dtp-select-hour.selected {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -48451,7 +48427,7 @@ a.pswp__share--download:hover {
 }
 
 .dtp-picker-time > a.dtp-select-minute.selected {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -48459,7 +48435,7 @@ a.pswp__share--download:hover {
   margin: 1rem 2rem 0 2rem;
   padding: 1rem;
   border-radius: 50% !important;
-  background: #f5f1e7;
+  background: #dde8da;
 }
 
 .dtp-clock-center {
@@ -48499,7 +48475,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .dtp-hand.on {
-  background: #e8830d;
+  background: #3e604a;
 }
 
 .dtp-buttons {
@@ -48525,7 +48501,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
   position: fixed;
   right: 15px;
   bottom: 15px;
-  background: #e8830d;
+  background: #3e604a;
   overflow: hidden;
   z-index: 1;
   -webkit-transform: translateY(100px);
@@ -48533,12 +48509,12 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .ui-to-top:focus {
-  color: #f39931;
+  color: #3e604a;
 }
 
 .ui-to-top:hover {
   color: #fff;
-  background: #f39931;
+  background: #567560;
 }
 
 .ui-to-top.active {
@@ -48641,7 +48617,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .checkout-tabs .rd-material-tabs__list .rd-material-tab a:hover {
-  color: #e8830d;
+  color: #3e604a;
 }
 
 @media (min-width: 768px) {
@@ -48651,7 +48627,7 @@ html[class*="ie"] .dtp-hand, html[class*="ie"] .dtp-hour-hand {
 }
 
 .checkout-tabs .rd-material-tabs__list .rd-material-tab-active a {
-  background: #e8830d;
+  background: #3e604a;
   color: #fff;
 }
 
@@ -48991,7 +48967,7 @@ td.legendColorBox {
 .time_circles > div {
   position: absolute;
   text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Playfair Display', serif;
   top: 50% !important;
   transform: translateY(-63%) !important;
   -webkit-transform: translateY(-63%) !important;
@@ -49007,7 +48983,7 @@ td.legendColorBox {
     content: '';
     transform: translate(-50%, -50%);
     border-radius: 50%;
-    border: 1px solid #f5f1e7;
+    border: 1px solid #dde8da;
   }
 }
 
@@ -49027,7 +49003,7 @@ td.legendColorBox {
   font-size: 18px !important;
   color: #434445;
   font-weight: 700;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: 'Fauna One', serif;
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -49065,7 +49041,7 @@ td.legendColorBox {
   font-size: 16px !important;
   text-align: center;
   color: #434445;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 
 @media (min-width: 768px) {
@@ -49633,7 +49609,7 @@ table.fc-border-separate {
 }
 
 .fc-agenda-slots tr:nth-child(even) td {
-  border-bottom: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
 }
 
 .fc-agenda-slots tr:last-of-type td {
@@ -49642,7 +49618,7 @@ table.fc-border-separate {
 
 @media (min-width: 768px) {
   .fc-agenda-slots tr:nth-child(even) td {
-    border-bottom: 1px solid #f5f1e7;
+    border-bottom: 1px solid #dde8da;
   }
 }
 
@@ -49680,7 +49656,7 @@ table.fc-border-separate {
     font-size: 16px;
     text-align: center;
     border-radius: 3px;
-    background-color: #f5f1e7;
+    background-color: #dde8da;
     color: #191919;
     transition: 250ms;
   }
@@ -49861,7 +49837,7 @@ table.fc-border-separate {
 }
 
 .fc-header-title {
-  background: #f5f1e7;
+  background: #dde8da;
   z-index: 1;
   position: relative;
 }
@@ -49875,13 +49851,12 @@ table.fc-border-separate {
 .fc-header-title h2 {
   font-size: 24px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 .fc-header .fc-corner-right, .fc-header .ui-corner-right {
   z-index: 1;
   margin: 0;
-  background: #f5f1e7;
+  background: #dde8da;
   padding: 0 10px;
 }
 
@@ -49903,9 +49878,9 @@ table.fc-border-separate {
   height: 26px;
   line-height: 23px;
   text-align: center;
-  background: #f5f1e7;
-  border: 1px solid #e8830d;
-  color: #e8830d;
+  background: #dde8da;
+  border: 1px solid #3e604a;
+  color: #3e604a;
 }
 
 .fc-text-arrow:hover {
@@ -49952,7 +49927,7 @@ table.fc-header:before, table.fc-header:after {
   content: "";
   display: inline-block;
   width: 42%;
-  border-top: 1px solid #f5f1e7;
+  border-top: 1px solid #dde8da;
 }
 
 table.fc-header:before {
@@ -49979,7 +49954,7 @@ table.fc-header:after {
 
 .nav-calendar li span {
   text-transform: uppercase;
-  color: #e8830d;
+  color: #3e604a;
   cursor: pointer;
   transition: 250ms;
 }
@@ -49994,7 +49969,7 @@ table.fc-header:after {
 }
 
 .nav-calendar li + li {
-  border-top: 1px solid #f5f1e7;
+  border-top: 1px solid #dde8da;
 }
 
 @media (min-width: 768px) {
@@ -50010,7 +49985,7 @@ table.fc-header:after {
     display: inline-block;
     margin: 0 19px;
     font-weight: 400;
-    color: #f5f1e7;
+    color: #dde8da;
   }
 }
 
@@ -50053,7 +50028,7 @@ table.fc-header:after {
   width: 102px;
   height: 100px;
   position: relative;
-  border-bottom: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
 }
 
 .calendar-variant-2 tbody td:first-of-type {
@@ -50070,7 +50045,7 @@ table.fc-header:after {
   width: 50px;
   vertical-align: top;
   padding-top: 18px;
-  border-bottom: 1px solid #f5f1e7;
+  border-bottom: 1px solid #dde8da;
   font-size: 12px;
 }
 
