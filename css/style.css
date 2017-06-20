@@ -496,9 +496,6 @@ ul.thumbnails {
 }
 li { list-style-type:none;}
 
-::selection { background: #ff5e99; color: #FFFFFF; text-shadow: 0; }
-::-moz-selection { background: #ff5e99; color: #FFFFFF; }
-
 .footermenu li>a, .footermenu a{
   font-weight:300;
   color:#000;
@@ -8066,6 +8063,17 @@ iframe {
 
 .procedures > h5 > a{
   color:#839eb8;
+}
+.procedures > h5 > a {
+  color:#101010;
+}
+.professional-list{
+  padding:0;
+  text-align: left;
+  margin-left: 10px;
+}
+.professional-list li {
+  margin: 10px 0;
 }
 .right-border{
   border-right:none;
