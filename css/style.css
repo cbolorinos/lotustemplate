@@ -8061,11 +8061,11 @@ iframe {
   max-width: 500px;
 }
 .doctorbg{
-  padding: 15px;
+  padding: 5px 15px 15px 15px;
   margin:200px 15px 15px 15px;
   background-color: rgba(244,241,232,0.8);
-  border:1px solid #839eb8;
-  text-align: center;
+  border-left:1px solid #839eb8;
+  text-align: left;
 }
 
 .procedures > h5 > a{
