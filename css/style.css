@@ -8062,11 +8062,10 @@ iframe {
 }
 .doctorbg{
   padding: 15px;
-  margin:15px;
-  background-color: rgba(244,241,232,0.6);
+  margin:200px 15px 15px 15px;
+  background-color: rgba(244,241,232,0.8);
   border:1px solid #000;
-  max-width: 500px;
-  text-align: left;
+  text-align: center;
 }
 
 .procedures > h5 > a{
@@ -29886,6 +29885,10 @@ html .page .offset-top-124 {
 
 html .page .offset-top-130 {
   margin-top: 130px;
+}
+
+html .page .offset-top-200 {
+  margin-top: 200px;
 }
 
 @media (min-width: 480px) {
