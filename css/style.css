@@ -8064,7 +8064,7 @@ iframe {
   padding: 15px;
   margin:200px 15px 15px 15px;
   background-color: rgba(244,241,232,0.8);
-  border:1px solid #000;
+  border:1px solid #839eb8;
   text-align: center;
 }
 
@@ -8084,6 +8084,20 @@ iframe {
 }
 .right-border{
   border-right:none;
+}
+.video-container {
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
 }
 @media (min-width: 768px) {
   .shell,
@@ -11749,8 +11763,8 @@ fieldset[disabled] .btn-default {
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle.focus {
   color: #fff;
-  background-color: #e41c2a;
-  border-color: #e41c2a;
+  background-color: #f39931;
+  border-color: #f39931;
 }
 
 .btn-primary.disabled, .btn-primary[disabled],
@@ -11766,8 +11780,8 @@ fieldset[disabled] .btn-primary {
 
 .btn-java {
   color: #fff;
-  background-color: #839eb8;
-  border-color: #839eb8;
+  background-color: #5e7d9a;
+  border-color: #5e7d9a;
 }
 
 .btn-java:focus, .btn-java.focus, .btn-java:hover, .btn-java:active, .btn-java.active,
@@ -24240,6 +24254,7 @@ html.lt-ie11 .btn-santos-svg:hover {
 
 /*# sourceMappingURL=materialdesignicons.css.map */
 /** 2.16 Thumbnail Addons */
+
 .thumbnail-custom, .thumbnail-classic, .thumbnail-zoe, .thumbnail-winston, .thumbnail-josip, .thumbnail-janes, .thumbnail-apollo, .thumbnail-terry, .thumbnail-rayen, .thumbnail-custom > figure, .thumbnail-classic > figure, .thumbnail-zoe > figure, .thumbnail-winston > figure, .thumbnail-josip > figure, .thumbnail-janes > figure, .thumbnail-apollo > figure, .thumbnail-terry > figure, .thumbnail-rayen > figure {
   position: relative;
   display: block;
@@ -24693,8 +24708,8 @@ a.thumbnail:hover {
 }
 
 .thumbnail-josip .btn-java:hover {
-  background: #5e7d9a;
-  border-color: #5e7d9a;
+  background: #445d75;
+  border-color: #445d75;
 }
 
 .thumbnail-josip-title, .thumbnail-josip p {
